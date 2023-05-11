@@ -1,0 +1,12 @@
+{
+    "type": "WebcamoidPluginsCollection",
+    "plugins": [
+        {
+            "name": "MatrixTransform",
+            "description": "Matrix Transform",
+            "id": "VideoFilter/MatrixTransform",
+            "implements": ["Element", "VideoFilter"],
+            "type": "qtplugin"
+        }
+    ]
+}

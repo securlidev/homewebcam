@@ -1,0 +1,13 @@
+{
+    "type": "WebcamoidPluginsCollection",
+    "plugins": [
+        {
+            "name": "VirtualCamera",
+            "description": "Create a virtual webcam to share with other programs",
+            "id": "VideoSink/VirtualCamera",
+            "implements": ["Element"],
+            "depends": ["VideoSink/VirtualCamera/Impl/*"],
+            "type": "qtplugin"
+        }
+    ]
+}

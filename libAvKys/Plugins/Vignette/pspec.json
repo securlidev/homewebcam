@@ -1,0 +1,12 @@
+{
+    "type": "WebcamoidPluginsCollection",
+    "plugins": [
+        {
+            "name": "Vignette",
+            "description": "Vignette",
+            "id": "VideoFilter/Vignette",
+            "implements": ["Element", "VideoFilter"],
+            "type": "qtplugin"
+        }
+    ]
+}

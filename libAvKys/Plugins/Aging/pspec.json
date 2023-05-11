@@ -1,0 +1,12 @@
+{
+    "type": "WebcamoidPluginsCollection",
+    "plugins": [
+        {
+            "name": "Aging",
+            "description": "Aging",
+            "id": "VideoFilter/Aging",
+            "implements": ["Element", "VideoFilter"],
+            "type": "qtplugin"
+        }
+    ]
+}

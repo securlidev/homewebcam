@@ -1,0 +1,13 @@
+{
+    "type": "WebcamoidPluginsCollection",
+    "plugins": [
+        {
+            "name": "Qt screen capture",
+            "description": "Capture screen using Qt framework",
+            "id": "VideoSource/DesktopCapture/Impl/QtScreen",
+            "implements": ["DesktopCaptureImpl"],
+            "priority": 900,
+            "type": "qtplugin"
+        }
+    ]
+}

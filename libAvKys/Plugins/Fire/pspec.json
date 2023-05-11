@@ -1,0 +1,13 @@
+{
+    "type": "WebcamoidPluginsCollection",
+    "plugins": [
+        {
+            "name": "Fire",
+            "description": "Fire",
+            "id": "VideoFilter/Fire",
+            "implements": ["Element", "VideoFilter"],
+            "depends": ["VideoFilter/Blur"],
+            "type": "qtplugin"
+        }
+    ]
+}

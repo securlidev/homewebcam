@@ -1,0 +1,12 @@
+{
+    "type": "WebcamoidPluginsCollection",
+    "plugins": [
+        {
+            "name": "ColorReplace",
+            "description": "Replace Color",
+            "id": "VideoFilter/ColorReplace",
+            "implements": ["Element", "VideoFilter"],
+            "type": "qtplugin"
+        }
+    ]
+}

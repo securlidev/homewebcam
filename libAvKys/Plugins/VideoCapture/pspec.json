@@ -1,0 +1,16 @@
+{
+    "type": "WebcamoidPluginsCollection",
+    "plugins": [
+        {
+            "name": "CameraCapture",
+            "description": "Capture video from a camera",
+            "id": "VideoSource/CameraCapture",
+            "implements": ["Element"],
+            "depends": [
+                "VideoSource/CameraCapture/Impl/*",
+                "VideoSource/CameraCapture/Convert/*"
+            ],
+            "type": "qtplugin"
+        }
+    ]
+}

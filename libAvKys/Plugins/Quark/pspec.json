@@ -1,0 +1,12 @@
+{
+    "type": "WebcamoidPluginsCollection",
+    "plugins": [
+        {
+            "name": "Quark",
+            "description": "Quark",
+            "id": "VideoFilter/Quark",
+            "implements": ["Element", "VideoFilter"],
+            "type": "qtplugin"
+        }
+    ]
+}

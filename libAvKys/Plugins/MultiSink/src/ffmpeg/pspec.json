@@ -1,0 +1,13 @@
+{
+    "type": "WebcamoidPluginsCollection",
+    "plugins": [
+        {
+            "name": "FFmpeg",
+            "description": "Record audio and video using FFmpeg",
+            "id": "MultimediaSink/MultiSink/Impl/FFmpeg",
+            "implements": ["MultiSinkImpl"],
+            "priority": 1000,
+            "type": "qtplugin"
+        }
+    ]
+}

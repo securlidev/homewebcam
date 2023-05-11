@@ -1,0 +1,13 @@
+{
+    "type": "WebcamoidPluginsCollection",
+    "plugins": [
+        {
+            "name": "Dice",
+            "description": "Dice",
+            "id": "VideoFilter/Dice",
+            "implements": ["Element", "VideoFilter"],
+            "depends": ["VideoFilter/Rotate"],
+            "type": "qtplugin"
+        }
+    ]
+}

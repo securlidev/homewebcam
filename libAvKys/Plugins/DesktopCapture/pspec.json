@@ -1,0 +1,13 @@
+{
+    "type": "WebcamoidPluginsCollection",
+    "plugins": [
+        {
+            "name": "DesktopCapture",
+            "description": "Capture video frames from the screen",
+            "id": "VideoSource/DesktopCapture",
+            "implements": ["Element"],
+            "depends": ["VideoSource/DesktopCapture/Impl/*"],
+            "type": "qtplugin"
+        }
+    ]
+}

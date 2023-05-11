@@ -1,0 +1,13 @@
+{
+    "type": "WebcamoidPluginsCollection",
+    "plugins": [
+        {
+            "name": "Warhol",
+            "description": "Warhol",
+            "id": "VideoFilter/Warhol",
+            "implements": ["Element", "VideoFilter"],
+            "depends": ["VideoFilter/Otsu"],
+            "type": "qtplugin"
+        }
+    ]
+}
